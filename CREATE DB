@@ -1,0 +1,11 @@
+CREATE DATABASE Sample2
+-- CREATE TABLE
+-- CREATE VIEW
+
+ALTER DATABASE Sample2 MODIFY Name = Sample3;
+
+sp_renameDB 'Sample3','Sample4'
+
+DROP DATABASE Sample4;
+
+DROP DATABASE master;
